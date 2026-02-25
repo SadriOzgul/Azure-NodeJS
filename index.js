@@ -24,7 +24,7 @@ const server = http.createServer((request, response) => {
     response.write("txt="+txt);
 
     // Close the response
-    response.end('<h3>The End.</h3>');
+    response.end('<h3>The End V2.</h3>');
 });
 
 const port = process.env.PORT || 1337;
